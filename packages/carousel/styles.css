@@ -1,0 +1,8 @@
+.__carousel__ .wrapper {
+  position: relative;
+}
+
+.__carousel__ .wrapper .item-wrapper {
+  position: absolute;
+  inset: 0;
+}

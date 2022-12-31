@@ -1,0 +1,11 @@
+{
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "yarn workspaces foreach -p run build",
+    "lint": "yarn workspaces foreach -p run lint",
+    "fmt": "yarn workspaces foreach -p run fmt"
+  },
+  "packageManager": "yarn@3.3.1"
+}

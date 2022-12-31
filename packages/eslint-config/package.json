@@ -1,0 +1,15 @@
+{
+  "name": "@carousel/eslint-config",
+  "private": true,
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5",
+    "eslint": ">=8.10",
+    "eslint-plugin-import": "^2",
+    "eslint-plugin-prettier": "^4",
+    "prettier": ">=2.4"
+  },
+  "dependencies": {
+    "@typescript-eslint/parser": "^5.47.1",
+    "eslint-config-universe": "^11.1.1"
+  }
+}
