@@ -363,39 +363,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@carousel/eslint-config@workspace:^, @carousel/eslint-config@workspace:^*, @carousel/eslint-config@workspace:packages/eslint-config":
-  version: 0.0.0-use.local
-  resolution: "@carousel/eslint-config@workspace:packages/eslint-config"
-  dependencies:
-    "@typescript-eslint/parser": ^5.47.1
-    eslint-config-universe: ^11.1.1
-  peerDependencies:
-    "@typescript-eslint/eslint-plugin": ^5
-    eslint: ">=8.10"
-    eslint-plugin-import: ^2
-    eslint-plugin-prettier: ^4
-    prettier: ">=2.4"
-  languageName: unknown
-  linkType: soft
-
-"@carousel/example@workspace:packages/example":
-  version: 0.0.0-use.local
-  resolution: "@carousel/example@workspace:packages/example"
-  dependencies:
-    "@carousel/eslint-config": "workspace:^*"
-    "@typescript-eslint/eslint-plugin": ^5.47.1
-    carousel: "workspace:^*"
-    eslint: ^8.31.0
-    eslint-plugin-import: ^2.26.0
-    eslint-plugin-prettier: ^4.2.1
-    prettier: ^2.8.1
-    solid-js: ^1.6.6
-    typescript: ^4.9.4
-    vite: ^4.0.3
-    vite-plugin-solid: ^2.5.0
-  languageName: unknown
-  linkType: soft
-
 "@cometjs/core@npm:^2.1.0":
   version: 2.1.1
   resolution: "@cometjs/core@npm:2.1.1"
@@ -711,6 +678,60 @@ __metadata:
   checksum: 52dc02259d98da517fae4cb3a0a3850227bdae4939dda1980b788a7670636ca2b4a01b58df03dd5f65c1e3cb70c50fa8ce5762b582b3f499ec30ee5ce1fd9380
   languageName: node
   linkType: hard
+
+"@nyam-ui/carousel@workspace:^*, @nyam-ui/carousel@workspace:packages/carousel":
+  version: 0.0.0-use.local
+  resolution: "@nyam-ui/carousel@workspace:packages/carousel"
+  dependencies:
+    "@nyam-ui/eslint-config": "workspace:^"
+    "@solid-primitives/map": ^0.3.0
+    "@solid-primitives/resize-observer": ^2.0.7
+    "@typescript-eslint/eslint-plugin": ^5.47.1
+    eslint: ^8.31.0
+    eslint-plugin-import: ^2.26.0
+    eslint-plugin-prettier: ^4.2.1
+    nanobundle: ^1.1.0
+    nanoid: ^4.0.0
+    prettier: ^2.8.1
+    solid-js: ^1.6.6
+    typescript: ^4.9.4
+  peerDependencies:
+    solid-js: ^1
+  languageName: unknown
+  linkType: soft
+
+"@nyam-ui/eslint-config@workspace:^, @nyam-ui/eslint-config@workspace:^*, @nyam-ui/eslint-config@workspace:packages/eslint-config":
+  version: 0.0.0-use.local
+  resolution: "@nyam-ui/eslint-config@workspace:packages/eslint-config"
+  dependencies:
+    "@typescript-eslint/parser": ^5.47.1
+    eslint-config-universe: ^11.1.1
+  peerDependencies:
+    "@typescript-eslint/eslint-plugin": ^5
+    eslint: ">=8.10"
+    eslint-plugin-import: ^2
+    eslint-plugin-prettier: ^4
+    prettier: ">=2.4"
+  languageName: unknown
+  linkType: soft
+
+"@nyam-ui/example-carousel@workspace:packages/example-carousel":
+  version: 0.0.0-use.local
+  resolution: "@nyam-ui/example-carousel@workspace:packages/example-carousel"
+  dependencies:
+    "@nyam-ui/carousel": "workspace:^*"
+    "@nyam-ui/eslint-config": "workspace:^*"
+    "@typescript-eslint/eslint-plugin": ^5.47.1
+    eslint: ^8.31.0
+    eslint-plugin-import: ^2.26.0
+    eslint-plugin-prettier: ^4.2.1
+    prettier: ^2.8.1
+    solid-js: ^1.6.6
+    typescript: ^4.9.4
+    vite: ^4.0.3
+    vite-plugin-solid: ^2.5.0
+  languageName: unknown
+  linkType: soft
 
 "@solid-primitives/event-listener@npm:^2.2.4":
   version: 2.2.4
@@ -1262,27 +1283,6 @@ __metadata:
   checksum: 0f5aa8f7ea4d165e88e0d1eaa44564c5bfee66641f265a1fd959e74f0a7e6bc0207db6c28e2fb63dc8b2cd23e0e3cee06c4f372de11c93c57ff5ff4207962c3f
   languageName: node
   linkType: hard
-
-"carousel@workspace:^*, carousel@workspace:packages/carousel":
-  version: 0.0.0-use.local
-  resolution: "carousel@workspace:packages/carousel"
-  dependencies:
-    "@carousel/eslint-config": "workspace:^"
-    "@solid-primitives/map": ^0.3.0
-    "@solid-primitives/resize-observer": ^2.0.7
-    "@typescript-eslint/eslint-plugin": ^5.47.1
-    eslint: ^8.31.0
-    eslint-plugin-import: ^2.26.0
-    eslint-plugin-prettier: ^4.2.1
-    nanobundle: ^1.1.0
-    nanoid: ^4.0.0
-    prettier: ^2.8.1
-    solid-js: ^1.6.6
-    typescript: ^4.9.4
-  peerDependencies:
-    solid-js: ^1
-  languageName: unknown
-  linkType: soft
 
 "chalk@npm:^2.0.0":
   version: 2.4.2

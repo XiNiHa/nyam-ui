@@ -1,5 +1,5 @@
 {
-  "name": "@carousel/eslint-config",
+  "name": "@nyam-ui/eslint-config",
   "private": true,
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^5",

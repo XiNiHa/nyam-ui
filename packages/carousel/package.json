@@ -1,5 +1,5 @@
 {
-  "name": "carousel",
+  "name": "@nyam-ui/carousel",
   "type": "module",
   "description": "A simple carousel component",
   "version": "0.1.0",
@@ -18,7 +18,7 @@
     "fmt": "eslint . --fix"
   },
   "devDependencies": {
-    "@carousel/eslint-config": "workspace:^",
+    "@nyam-ui/eslint-config": "workspace:^",
     "@typescript-eslint/eslint-plugin": "^5.47.1",
     "eslint": "^8.31.0",
     "eslint-plugin-import": "^2.26.0",

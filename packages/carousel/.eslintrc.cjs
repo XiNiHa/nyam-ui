@@ -1,7 +1,7 @@
 const path = require('node:path')
 
 module.exports = {
-  extends: '@carousel',
+  extends: '@nyam-ui',
   overrides: [
     {
       files: ['*?(.d).?({m,c})ts?(x)'],
